@@ -848,7 +848,7 @@ elif selected_tab == "👤 User Dashboard":
         user_content_data = {
             1: {"movie": "Shadow Protocol",
  "actor": "Will Smith",
-        "movie_poster": “images/shadowprotocol.jpeg”,
+        "movie_poster": "images/shadowprotocol.jpeg",
         "actor_img": "images/willsmith.jpeg",
         "actor_movies": ["Men in Black","I Am Legend","Gemini Man"],
         "similar_movies": ["Crimson Vengeance","The Hollow Manor","Hearts Entwined"]},
@@ -888,11 +888,11 @@ elif selected_tab == "👤 User Dashboard":
         "similar_movies": ["Hearts Entwined","Accidentally Perfect","The Hollow Manor"]},
         8: {"movie": "Accidentally Perfect", "actor": "Leonardo DiCaprio",
         "movie_poster": "images/accidentlyperfect.jpeg",
-        "actor_img": "images/leodicap.jpeg”,
+        "actor_img": "images/leodicap.jpeg",
         "actor_movies": ["Inception","Titanic","The Revenant"],
         "similar_movies": ["Shadow Protocol","Laugh Lines","Forever and Always"]},
         9: {"movie": "Whispers in the Dark", "actor": "Scarlett Johansson",
-        "movie_poster": “images/whispersinthedark.jpeg”,
+        "movie_poster": "images/whispersinthedark.jpeg",
         "actor_img": "images/scarlettjohanson.jpeg",
         "actor_movies": ["Lucy","Marriage Story","Lost in Translation"],
         "similar_movies": ["Echoes of Silence","Hearts Entwined","Accidentally Perfect"]},
@@ -946,7 +946,7 @@ elif selected_tab == "👤 User Dashboard":
     "Accidentally Perfect": "images/accidentlyperfect.jpeg",
     "Men in Black":"images/meninblack.jpeg",
     "I Am Legend":"images/iamlegend.jpeg",
-    "Gemini Man":”images/geminiman.jpeg”
+    "Gemini Man":"images/geminiman.jpeg"
 }
 
         st.write("Because you liked:", current["movie"])
@@ -973,30 +973,30 @@ elif selected_tab == "👤 User Dashboard":
         "The Iron Lady":"images/theironlady.jpeg",
         "Kramer vs Kramer":"images/.jpeg",
         "The Devil Wears Prada":"images/thedevilwearsprada.jpeg",
-“Fight Club":”images/thefightclub.jpeg”,
-"World War Z":”images/worldwarz.jpeg”,
-"Once Upon a Time in Hollywood”:”images/onceuponatimeinhollywood.jpeg”,
-“ Lucy":”images/lucy.jpeg”,
-"Marriage Story":”images/marriagestory.jpeg”,
-"Lost in Translation”:”images/lostintranslation.jpeg”,
-"Inception":”images/inception.jpeg”,
-"Titanic":”images/titanic.jpeg”,
-"The Revenant”:”images/therevenant.jpeg”,
-“La La Land":”images/.lalalandjpeg”,
-"Easy A":”images/.easyajpeg”,
-"The Favourite”:”images/.thefavouritejpeg”,
-“Forrest Gump":”images/forrestgump.jpeg”,
-"Cast Away":”images/castaway.jpeg”,
-"Saving Private Ryan”:”images/savingprivateryan.jpeg”,
-"Pretty Woman":”images/prettywoman.jpeg”
-,"Erin Brockovich":”images/erinbrockovich.jpeg”,
-"My Best Friend's Wedding”:”images/mybsfsbody.jpeg”,
-“Halloween":”images/halloweem.jpeg”,
-"Freaky Friday":”images/freakyfriday.jpeg”,
-"True Lies":”images/truelies.jpeg”
-"The Mask":”images/themask.jpeg”,
-"Ace Ventura":”images/aceventura.jpeg”,
-"Dumb and Dumber":”images/dumbanddumber.jpeg”
+"Fight Club":"images/thefightclub.jpeg",
+"World War Z":"images/worldwarz.jpeg",
+"Once Upon a Time in Hollywood":"images/onceuponatimeinhollywood.jpeg",
+" Lucy":"images/lucy.jpeg",
+"Marriage Story":"images/marriagestory.jpeg",
+"Lost in Translation":"images/lostintranslation.jpeg",
+"Inception":"images/inception.jpeg",
+"Titanic":"images/titanic.jpeg",
+"The Revenant":"images/therevenant.jpeg",
+"La La Land":"images/.lalalandjpeg",
+"Easy A":"images/.easyajpeg",
+"The Favourite":"images/.thefavouritejpeg",
+"Forrest Gump":"images/forrestgump.jpeg",
+"Cast Away":"images/castaway.jpeg",
+"Saving Private Ryan":"images/savingprivateryan.jpeg",
+"Pretty Woman":"images/prettywoman.jpeg"
+,"Erin Brockovich":"images/erinbrockovich.jpeg",
+"My Best Friend's Wedding":"images/mybsfsbody.jpeg",
+"Halloween":"images/halloweem.jpeg",
+"Freaky Friday":"images/freakyfriday.jpeg",
+"True Lies":"images/truelies.jpeg",
+"The Mask":"images/themask.jpeg",
+"Ace Ventura":"images/aceventura.jpeg",
+"Dumb and Dumber":"images/dumbanddumber.jpeg"
 
         }
         
@@ -1068,6 +1068,14 @@ elif selected_tab == "👤 User Dashboard":
         if st.button("🔓 Logout"):
             st.session_state.logged_in_user = None
             st.experimental_rerun()
+
+
+
+
+
+
+
+
 
 
 
